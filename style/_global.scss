@@ -1,0 +1,58 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  background-color: $primary_bg;
+}
+
+.btn-first{
+  padding: 12px 24px !important;
+  border-radius: 8px;
+  background-color: $button_color;
+  color: #fff;
+
+  &:hover {
+    background-color: #a0be18;
+    color: rgb(211, 210, 210);
+  }
+}
+
+.btn-second {
+  padding: 12px 24px !important;
+  border-radius: 8px;
+  border: 1px solid $button_color;
+  color: $button_color;
+
+  &:hover {
+    background-color: $button_color;
+    color: #fff;
+    border: none;
+  }
+}
+
+.input-group {
+  width: 50%;
+}
+
+.navbar {
+  .navbar-brand {
+    color: $accen;
+    font-size: 22px;
+    font-weight: map-get($fonts_weight, bold);
+
+    span {
+      color: $button_color;
+    }
+  }
+}
+
+.menu-wrapper {
+  margin-top: 120px;
+
+  a {
+    margin: 0 25px;
+  }
+}
