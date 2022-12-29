@@ -41,6 +41,11 @@ body {
 .input-group {
   width: 50%;
 }
+@media (max-width: 991.98px) {
+  .input-group {
+    width: 100%;
+  }
+}
 
 .navbar .navbar-brand {
   color: #463C74;
@@ -49,6 +54,9 @@ body {
 }
 .navbar .navbar-brand span {
   color: #B4D51E;
+}
+.navbar .nav-item i {
+  font-size: 24px;
 }
 
 .menu-wrapper {
